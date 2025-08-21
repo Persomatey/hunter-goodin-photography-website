@@ -1,0 +1,427 @@
+html 
+{
+	font-family: serif
+}
+
+p, li 
+{
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+html 
+{
+	font-size: 40px;
+}
+
+body 
+{
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	color:darkslategrey;
+	font-size: 15px;
+	/*padding: 0 20px 20px 20px;*/
+}
+
+h1 
+{
+	text-decoration: none;
+	color: darkslategrey;
+	font-size: 2.6vw;
+	text-align: start;
+
+	padding-top: 0;
+	/* padding-right: 10px; */
+	padding-left: 0px;
+	margin-bottom: 0;
+}
+
+h2 
+{
+	text-decoration: none;
+	color: darkslategrey;
+	font-size: 1.1vw;
+	text-align: start;
+
+	/* padding-right: 10px; */
+	padding-left: 0px;
+	/* position: relative; */
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+
+h3
+{
+	font-size: 1vw;
+	text-align: right;
+	margin-top:4.4vw;
+	padding-right: 10px;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+h4
+{
+	font-size: 30px;
+	text-align: left;
+	margin: 0 auto;
+	color: darkslategrey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+h5
+{
+	font-size: 1.8vw;;
+	text-align: center;
+	margin: 0 auto;
+	color: darkslategrey;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h6
+{
+	font-size: 0.9vw;;
+	text-align: center;
+	margin: 0 auto;
+	color: darkslategrey;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+A
+{
+	text-decoration: none; 
+	color: darkslategrey;
+} 
+C
+{
+	text-decoration: none;
+	color: black; 
+	font-size: 1.3vw;
+	text-align: end;
+
+	padding-right: 0px;
+	padding-left: 20px;
+	padding-top: 0;
+}
+D
+{
+	text-decoration: none;
+	color: black; 
+	text-align: end;
+
+	padding-right: 0px;
+	padding-left: 20px;
+	padding-top: 0;
+}
+E
+{
+	text-decoration: none;
+	color: darkslategrey; 
+}
+F
+{
+	text-decoration: none;
+	color: darkslategrey; 
+	font-size: 18px;
+
+	padding-right: 0px;
+	padding-left: 5px;
+}
+
+p
+{
+	padding-left: 15px;
+	padding-right: 0px;
+	color: darkslategrey; 
+}
+
+img 
+{
+	display: block;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+hr 
+{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.columnheader
+{
+	float: left; 
+	width: 25%;
+	/*background-color:blue;*/
+}
+
+.columnside
+{
+	float: left; 
+	width: 20%;
+	/*background-color:yellow;*/
+}
+
+.column
+{
+	padding-top: 0%;
+	float: left; 
+	width: 30%;
+	/*background-color:orange;*/
+}
+
+.columnphotographydiv
+{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	float: left; 
+	width: 25%;
+	/*background-color:orange;*/
+}
+
+@media (orientation: landscape) 
+{
+	.column 
+	{
+		width: 30%; /* Adjust width for landscape */
+	}
+
+	.columnside
+	{
+		width: 20%; 
+	}
+
+	.columnphotographydiv
+	{
+		width: 20%; 
+	}
+
+	hr
+	{
+		width: 60%;
+	}
+}
+
+@media (orientation: portrait) 
+{
+	.column 
+	{
+		width: 40%; /* Adjust width for portrait */
+	}
+
+	.columnside
+	{
+		width: 10%; 
+	}
+
+	.columnphotographydiv
+	{
+		width: 26.6666%; 
+	}
+
+	hr
+	{
+		width: 80%;
+	}
+}
+
+.row:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.modal 
+{
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 2.5%; /**/
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+.modal-content 
+{
+	background-color: ghostwhite;
+	padding-right: 10px; /**/
+	margin: auto;
+	border: 1px solid #888; 
+	width: 75%;
+	height: 90%;
+}
+
+/* The Close Button */
+.close 
+{
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus 
+{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+input[type=image]
+{
+	display: block;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea 
+{
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] 
+{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover 
+{
+	background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container 
+{
+	border-radius: 5px;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+
+.hunterlink
+{
+	color: darkslategrey
+}
+
+.hunterlink:hover
+{
+	color: slategrey;
+}
+
+/* Scroll Bar Stuff */
+::-webkit-scrollbar 
+{
+	width: 10px;
+}
+::-webkit-scrollbar-track 
+{
+	/*background: #f1f1f1; */
+}
+::-webkit-scrollbar-thumb 
+{
+	background: #888; 
+}
+::-webkit-scrollbar-thumb:hover 
+{
+	background: #555; 
+}
+
+/* Other */
+
+.tooltip 
+{
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext 
+{
+	visibility: hidden;
+	width: 11vw;
+	font-size: 1vw;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -5.5vw;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after 
+{
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext 
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+.btn 
+{
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.box 
+{
+	position: relative;
+	width: 50%;
+}
+.box:before 
+{
+	content: "";
+	float: left;
+	padding-top: 100%;
+}
+.content 
+{
+	float: left;
+}

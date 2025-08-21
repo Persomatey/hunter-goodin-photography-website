@@ -1,0 +1,78 @@
+<!doctype html> 
+<html style="background-color: antiquewhite;"> 
+
+	<head>
+		<title>Hunter Goodin</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="scripts.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+
+		<!-- Header -->
+		 
+		<script type="text/javascript">LoadHeader("portfolio")</script>
+		<div id="header"></div>
+
+		<!-- Portfolio -->
+
+		</br>
+
+		<div class="row">
+			<div class="columnside">
+				<p></p>
+			</div>
+
+			<div style="cursor: pointer;" onclick="LoadGallery('portraiture')">
+				<div class="columnphotographydiv">
+					<img style="width:90%; aspect-ratio:1/1; object-fit:cover;" src="./images/portraiture/LoFGameplay1.png">
+					<div style="width:90%; text-align:center; line-height:2; letter-spacing:1px;">
+						<div id="portraiture"  style="text-decoration:underline; font-size:25px;">
+							Portraiture
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div style="cursor: pointer;" onclick="LoadGallery('commercial')">
+				<div class="columnphotographydiv">
+					<img style="width:90%; aspect-ratio:1/1; object-fit:cover; padding-left:5%;" src="./images/commercial/BO3Gameplay1.png">
+					<div style="width:90%; padding-left:5%; text-align:center; line-height:2; letter-spacing:1px;">
+						<div id="commercial" style="text-decoration: none; font-size:20px;">
+							Commercial
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div style="cursor: pointer;" onclick="LoadGallery('miscellaneous')">
+				<div class="columnphotographydiv">
+					<img style="width:90%; aspect-ratio:1/1; object-fit:cover; padding-left:10%;" src="./images/miscellaneous/SpSGameplay1.png">
+					<div style="width:90%; padding-left:10%; text-align:center; line-height:2; letter-spacing:1px;">
+						<div id="miscellaneous" style="text-decoration: none; font-size:20px;">
+							Miscellaneous
+						</div>
+					</div>
+				</div>
+			</div>
+
+		  	<div class="columnside">
+		  		<p></p>
+		  	</div>
+		</div>
+
+		<hr/>
+
+		<!-- Galleries -->
+
+		<script type="text/javascript">LoadGallery("portraiture")</script>
+		<div id="gallery"></div>
+
+		<!-- Footer -->
+		 
+		<script type="text/javascript">LoadFooter()</script>
+		<div id="footer"></div>
+
+	</body>
+</html>
