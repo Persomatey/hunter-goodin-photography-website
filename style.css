@@ -184,12 +184,87 @@ hr
 	padding-top: 2%;
 	padding-bottom: 2%;
 	float: left; 
-	width: 25%;
+	width: 33%;
 	/*background-color:orange;*/
+}
+
+.columnphotographybuttondiv
+{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	float: left; 
+	width: 5%;
+	/*background-color:orange;*/
+}
+
+.responsive-pricingheader
+{
+	
+}
+
+.responsive-pricingpackagename
+{
+	
+}
+
+.responsive-pricingwhatsincluded
+{
+	
+}
+
+.responsive-pricingwhatsincludedcontent
+{
+	
+}
+
+.responsive-pricingsamplephoto1
+{
+	
+}
+
+.responsive-pricingsamplephoto2
+{
+	
+}
+
+.responsive-pricingsamplephoto3
+{
+	
+}
+
+.responsive-pricingsamplephoto4
+{
+	
+}
+
+.responsive-pricingsamplephoto5
+{
+	
+}
+
+.responsive-pricingsamplephoto6
+{
+	
+}
+
+.hometext
+{
+	
 }
 
 @media (orientation: landscape) 
 {
+	.hometext
+	{
+		color: darkslategrey;
+		text-align: justify; 
+		padding-left: 5%;
+		padding-top: 0px;
+		font-size: 20px;
+		line-height: 2;
+		letter-spacing: 1px;
+	}
+
 	.column 
 	{
 		width: 30%; /* Adjust width for landscape */
@@ -205,14 +280,104 @@ hr
 		width: 20%; 
 	}
 
-	hr
+	.columnphotographybuttondiv
 	{
-		width: 60%;
+		width: 12%; 
+	}
+
+	.responsive-pricingheader
+	{
+		font-size: 2vw;
+	}
+
+	.responsive-pricingpackagename
+	{
+		font-size: 1vw;
+	}
+
+	.responsive-pricingwhatsincluded
+	{
+		font-size: 0.75vw;
+	}
+
+	.responsive-pricingwhatsincludedcontent
+	{
+		font-size: 0.65vw;
+	}
+
+	.responsive-pricingsamplephoto1
+	{
+		height: 20vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 10.5vw;
+		left: 21.5vw; 
+		transform: rotate(-7deg);
+	}
+
+	.responsive-pricingsamplephoto2
+	{
+		height: 20vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 10.5vw; 
+		left: 35.5vw; 
+		transform: rotate(7deg);
+	}
+
+	.responsive-pricingsamplephoto3
+	{
+		height: 20vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 24vw; 
+		left: 28.5vw; 
+		transform: rotate(0deg);
+	}
+
+	.responsive-pricingsamplephoto4
+	{
+		height: 20vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 50vw;
+		left: 51vw; 
+		transform: rotate(-7deg);
+	}
+
+	.responsive-pricingsamplephoto5
+	{
+		height: 20vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 50vw; 
+		left: 65vw; 
+		transform: rotate(7deg);
+	}
+
+	.responsive-pricingsamplephoto6
+	{
+		height: 20vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 63.5vw; 
+		left: 57vw; 
+		transform: rotate(0deg);
 	}
 }
 
 @media (orientation: portrait) 
 {
+	.hometext
+	{
+		color: darkslategrey;
+		padding-left: 5%;
+		padding-top: 0px;
+		font-size: 1.5vw;
+		line-height: 2;
+		letter-spacing: 1px;
+	}
+
 	.column 
 	{
 		width: 40%; /* Adjust width for portrait */
@@ -225,12 +390,97 @@ hr
 
 	.columnphotographydiv
 	{
-		width: 26.6666%; 
+		width: 26.66666666%; 
+	}
+
+	.columnphotographybuttondiv
+	{
+		width: 16%; 
 	}
 
 	hr
 	{
 		width: 80%;
+	}
+
+	.responsive-pricingheader
+	{
+		font-size: 4vw;
+	}
+
+	.responsive-pricingpackagename
+	{
+		font-size: 1.8vw;
+	}
+
+	.responsive-pricingwhatsincluded
+	{
+		font-size: 1.5vw;
+	}
+
+	.responsive-pricingwhatsincludedcontent
+	{
+		font-size: 1vw;
+	}
+
+	.responsive-pricingsamplephoto1
+	{
+		height: 30vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 12vw;
+		left: 12vw; 
+		transform: rotate(-7deg);
+	}
+
+	.responsive-pricingsamplephoto2
+	{
+		height: 30vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 12vw; 
+		left: 32vw; 
+		transform: rotate(7deg);
+	}
+
+	.responsive-pricingsamplephoto3
+	{
+		height: 30vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 32vw; 
+		left: 22vw; 
+		transform: rotate(0deg);
+	}
+
+	.responsive-pricingsamplephoto4
+	{
+		height: 30vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 70vw;
+		left: 47vw; 
+		transform: rotate(-7deg);
+	}
+
+	.responsive-pricingsamplephoto5
+	{
+		height: 30vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 70vw; 
+		left: 67vw; 
+		transform: rotate(7deg);
+	}
+
+	.responsive-pricingsamplephoto6
+	{
+		height: 30vw; 
+		object-fit: contain; 
+		position: absolute; 
+		top: 90vw; 
+		left: 55.5vw; 
+		transform: rotate(0deg);
 	}
 }
 

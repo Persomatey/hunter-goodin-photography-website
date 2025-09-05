@@ -43,9 +43,12 @@ function LoadGallery(gallery)
 	fetch(`./galleries/${gallery}.html`)
 	.then(response => response.text())
 	.then(text => document.getElementById("gallery").innerHTML = text)
+	.then(document.getElementById("wedding").style = "text-decoration:none; font-size:20px; margin-top:5px;")
 	.then(document.getElementById("portraiture").style = "text-decoration:none; font-size:20px; margin-top:5px;")
 	.then(document.getElementById("commercial").style = "text-decoration:none; font-size:20px; margin-top:5px;")
-	.then(document.getElementById("miscellaneous").style = "text-decoration:none; font-size:20px; margin-top:5px;")
+	.then(document.getElementById("realestate").style = "text-decoration:none; font-size:20px; margin-top:5px;")
+	.then(document.getElementById("cosplay").style = "text-decoration:none; font-size:20px; margin-top:5px;")
+	// .then(document.getElementById("miscellaneous").style = "text-decoration:none; font-size:20px; margin-top:5px;")
 	.then(document.getElementById(gallery).style = "text-decoration:underline; font-size:25px; margin-top:0px;"); 
 }
 
