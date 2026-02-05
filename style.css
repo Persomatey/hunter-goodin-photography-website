@@ -310,7 +310,7 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 10.5vw;
+		top: 13.5vw;
 		left: 21.5vw; 
 		transform: rotate(-7deg);
 	}
@@ -320,7 +320,7 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 10.5vw; 
+		top: 13.5vw;
 		left: 35.5vw; 
 		transform: rotate(7deg);
 	}
@@ -330,7 +330,7 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 24vw; 
+		top: 28vw;
 		left: 28.5vw; 
 		transform: rotate(0deg);
 	}
@@ -340,7 +340,7 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 50vw;
+		top: 57vw;
 		left: 51vw; 
 		transform: rotate(-7deg);
 	}
@@ -350,7 +350,7 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 50vw; 
+		top: 57vw; 
 		left: 65vw; 
 		transform: rotate(7deg);
 	}
@@ -360,7 +360,7 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 63.5vw; 
+		top: 70.5vw; 
 		left: 57vw; 
 		transform: rotate(0deg);
 	}
@@ -458,8 +458,8 @@ hr
 		height: 30vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 70vw;
-		left: 47vw; 
+		top: 81vw;
+		left: 48vw; 
 		transform: rotate(-7deg);
 	}
 
@@ -468,8 +468,8 @@ hr
 		height: 30vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 70vw; 
-		left: 67vw; 
+		top: 81vw; 
+		left: 68vw; 
 		transform: rotate(7deg);
 	}
 
@@ -478,8 +478,8 @@ hr
 		height: 30vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 90vw; 
-		left: 55.5vw; 
+		top: 101vw; 
+		left: 56.5vw; 
 		transform: rotate(0deg);
 	}
 }
