@@ -43,13 +43,19 @@ function LoadGallery(gallery)
 	fetch(`./galleries/${gallery}.html`)
 	.then(response => response.text())
 	.then(text => document.getElementById("gallery").innerHTML = text)
-	.then(document.getElementById("wedding").style = "text-decoration:none; font-size:20px; margin-top:5px;")
-	.then(document.getElementById("portraiture").style = "text-decoration:none; font-size:20px; margin-top:5px;")
-	.then(document.getElementById("commercial").style = "text-decoration:none; font-size:20px; margin-top:5px;")
-	.then(document.getElementById("realestate").style = "text-decoration:none; font-size:20px; margin-top:5px;")
-	.then(document.getElementById("cosplay").style = "text-decoration:none; font-size:20px; margin-top:5px;")
-	// .then(document.getElementById("miscellaneous").style = "text-decoration:none; font-size:20px; margin-top:5px;")
-	.then(document.getElementById(gallery).style = "text-decoration:underline; font-size:25px; margin-top:0px;"); 
+	.then(document.getElementById("wedding").classList.replace('portfolio_selected', 'portfolio_unselected'))
+	.then(document.getElementById("portraiture").classList.replace('portfolio_selected', 'portfolio_unselected'))
+	.then(document.getElementById("commercial").classList.replace('portfolio_selected', 'portfolio_unselected'))
+	.then(document.getElementById("realestate").classList.replace('portfolio_selected', 'portfolio_unselected'))
+	.then(document.getElementById("cosplay").classList.replace('portfolio_selected', 'portfolio_unselected'))
+	// .then(document.getElementById("miscellaneous").style = "text-decoration:none; font-size:2vw; margin-top:5px;")
+	.then(document.getElementById(gallery).classList.replace('portfolio_unselected', 'portfolio_selected'));
+
+	console.log(document.getElementById("wedding").classList[0]); 
+	console.log(document.getElementById("portraiture").classList[0]); 
+	console.log(document.getElementById("commercial").classList[0]); 
+	console.log(document.getElementById("realestate").classList[0]); 
+	console.log(document.getElementById("cosplay").classList[0]); 
 }
 
 function LoadHeader(id)

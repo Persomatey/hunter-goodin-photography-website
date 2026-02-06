@@ -6,7 +6,7 @@ html
 p, li 
 {
 	font-size: 16px;
-	line-height: 2;
+	line-height: 1;
 	letter-spacing: 1px;
 }
 
@@ -105,6 +105,7 @@ C
 	color: black; 
 	font-size: 1.3vw;
 	text-align: end;
+	line-height: 1.5;
 
 	padding-right: 0px;
 	padding-left: 20px;
@@ -115,6 +116,7 @@ D
 	text-decoration: none;
 	color: black; 
 	text-align: end;
+	line-height: 1.75;
 
 	padding-right: 0px;
 	padding-left: 20px;
@@ -124,6 +126,7 @@ E
 {
 	text-decoration: none;
 	color: darkslategrey; 
+	line-height: 2;
 }
 F
 {
@@ -252,8 +255,34 @@ hr
 	
 }
 
+.portfolio_selected
+{
+
+}
+
+.portfolio_unselected
+{
+
+}
+
 @media (orientation: landscape) 
 {
+	.portfolio_selected
+	{
+		text-decoration:underline; 
+		font-size:1.3vw; 
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+
+	.portfolio_unselected
+	{
+		text-decoration:none; 
+		font-size:1.2vw; 
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+
 	.hometext
 	{
 		color: darkslategrey;
@@ -310,8 +339,8 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 13.5vw;
-		left: 21.5vw; 
+		top: 9.8vw;
+		left: 21.0vw; 
 		transform: rotate(-7deg);
 	}
 
@@ -320,8 +349,8 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 13.5vw;
-		left: 35.5vw; 
+		top: 9.8vw;
+		left: 34.0vw; 
 		transform: rotate(7deg);
 	}
 
@@ -330,8 +359,8 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 28vw;
-		left: 28.5vw; 
+		top: 21vw;
+		left: 26.5vw; 
 		transform: rotate(0deg);
 	}
 
@@ -340,8 +369,8 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 57vw;
-		left: 51vw; 
+		top: 44vw;
+		left: 52.5vw; 
 		transform: rotate(-7deg);
 	}
 
@@ -350,7 +379,7 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 57vw; 
+		top: 44vw; 
 		left: 65vw; 
 		transform: rotate(7deg);
 	}
@@ -360,14 +389,28 @@ hr
 		height: 20vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 70.5vw; 
-		left: 57vw; 
+		top: 52vw; 
+		left: 58.5vw; 
 		transform: rotate(0deg);
 	}
 }
 
 @media (orientation: portrait) 
 {
+	.portfolio_selected
+	{
+		text-decoration:underline; 
+		font-size:2.1vw; 
+		margin-top:0px;
+	}
+
+	.portfolio_unselected
+	{
+		text-decoration:none; 
+		font-size:2vw; 
+		margin-top:0px;
+	}
+
 	.hometext
 	{
 		color: darkslategrey;
@@ -428,7 +471,7 @@ hr
 		height: 30vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 12vw;
+		top: 16vw;
 		left: 12vw; 
 		transform: rotate(-7deg);
 	}
@@ -438,7 +481,7 @@ hr
 		height: 30vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 12vw; 
+		top: 16vw; 
 		left: 32vw; 
 		transform: rotate(7deg);
 	}
@@ -448,7 +491,7 @@ hr
 		height: 30vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 32vw; 
+		top: 33vw; 
 		left: 22vw; 
 		transform: rotate(0deg);
 	}
@@ -458,7 +501,7 @@ hr
 		height: 30vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 81vw;
+		top: 77vw;
 		left: 48vw; 
 		transform: rotate(-7deg);
 	}
@@ -468,7 +511,7 @@ hr
 		height: 30vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 81vw; 
+		top: 77vw; 
 		left: 68vw; 
 		transform: rotate(7deg);
 	}
@@ -478,7 +521,7 @@ hr
 		height: 30vw; 
 		object-fit: contain; 
 		position: absolute; 
-		top: 101vw; 
+		top: 92vw; 
 		left: 56.5vw; 
 		transform: rotate(0deg);
 	}
